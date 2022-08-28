@@ -1,0 +1,376 @@
+h1{
+    margin:0;
+    padding:0;
+    font-size: 48px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+h3{
+    margin:0;
+    padding:0;
+    font-size: 24px;
+    font-weight: 900;
+}
+.text-xl{
+    font-size: 26px;
+    padding-top: 40px;
+}
+.text-xl-footer{
+    font-size: 26px;
+    padding-top: 40px;
+}
+.text-l{
+    font-size: 24px;
+    padding-top: 40px;
+}
+.text-m{
+    font-size: 20px;
+}
+html{
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    box-sizing: content-box;
+    width: 100%;
+    font-size:16px;
+    font-weight:300;
+}
+b{
+    font-weight: 700;
+}
+ul li{
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo-footer{
+    margin-top:130px;
+}
+.btn-mobile{
+    display:none;
+}
+.footer-contact{
+    margin-top:100px;
+    font-weight:500;
+}
+a{
+    text-decoration:none;
+}
+.font-red{
+    color: #EE325C;
+}
+.underline{
+    border-bottom: 12px solid #fcd6de;
+    display: inline-block;
+    line-height: 0.90;
+}
+
+.list-type-none{
+    list-style-type: none;
+    margin:0;
+    padding-top:0;
+    padding-left: 0;
+}
+.list-type-none li{
+    margin-bottom:25px;
+}
+.flex{
+    display: flex;
+}
+.font-weight-900{
+    font-weight: 900;
+}
+.margin-right-20{
+    margin-right:20px;
+}
+.margin-left-40{
+    margin-left:40px;
+}
+.margin-right-40{
+    margin-right:40px;
+}
+.margin-top-0{
+    margin-top:0;
+}
+.margin-top-5{
+    margin-top:5px;
+}
+.margin-top-20{
+    margin-top:20px;
+}
+.margin-top-40{
+    margin-top:40px;
+}
+.margin-bottom-0{
+    margin-bottom:0;
+}
+.padding-top-10{
+    padding-top:10px;
+}
+.padding-top-80{
+    padding-top:80px;
+}
+header{
+    background: rgb(61,46,128);
+    background: linear-gradient(170deg, rgba(61,45,128,1) 40%, rgba(165,34,114,1) 100%);
+    width:100%;
+    display:inline-block;
+    padding-top:60px;
+}
+footer{
+    background: rgb(61,46,128);
+    background: linear-gradient(170deg, rgba(61,45,128,1) 40%, rgba(165,34,114,1) 100%);
+    min-height: 720px;
+    width:100%;
+    display:inline-block;
+    padding-top:140px;
+    margin-top:200px;
+    text-align:center;
+}
+.container{
+    max-width: 920px;
+    margin: auto;
+}
+.hero h1{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 900;
+    text-align: center;
+    color:#ffffff;
+    padding-top: 110px;
+    padding-bottom: 140px;
+}
+.hero-footer h1{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 900;
+    text-align: center;
+    color:#ffffff;
+    
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #ffffff;
+}
+.content{
+    margin:auto;
+}
+.icon-done{
+    background: url("../img/icon_done.svg");
+    width:24px;
+    height:24px;
+    display:block;
+    float:left;
+    margin-right:15px;
+}
+.border{
+    border: 1px solid #D6D8DD;
+    padding:30px;
+    position: relative;
+    margin-right: 20px;
+}
+.quotation{
+    position: absolute;
+    z-index: 10;
+    left:30px;
+    top: -10px;
+}
+.left-side{
+}
+.btn{
+    background-color: #EE325C;
+    color:#ffffff;
+    padding: 5px 15px;
+    border-radius:8px;
+    font-weight: 800;
+    display: inline-block;
+}
+.btn-xl{
+    background-color: #EE325C;
+    color:#ffffff;
+    padding: 15px 60px;
+    border-radius:8px;
+    font-weight: 900;
+    display: inline-block;
+    font-size:20px;
+}
+.wrapper{
+    width:100%;
+    height:auto;
+    display: block;
+    clear: both;
+    float:left;
+    margin-top:100px;
+}
+.steps{
+    width:100%;
+    height:auto;
+    display: block;
+    clear: both;
+    float:left;
+    margin-top:30px;
+}
+.padding-left-20{
+    padding-left:20px;
+}
+.padding-right-20{
+    padding-right:50px;
+}
+.padding-right-10{
+    padding-right:10px;
+}
+.padding-left-10{
+    padding-left:10px;
+}
+.display-block{
+    display:block;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .openBtn {
+    display: flex;
+    justify-content: left;
+  }
+  .openButton {
+    border-radius: 5px;
+    background-color: #EE325C;
+    color: white;
+    cursor: pointer;
+    border: 0;
+  }
+  .btn-small{
+    padding: 10px 20px;
+  }
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    z-index: 9;
+    -webkit-box-shadow: 0px 32px 45px 0px rgba(0,0,0,0.15); 
+    box-shadow: 0px 32px 45px 0px rgba(0,0,0,0.15);
+  }
+  #form{
+    background-color: rgb(255,255,255,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: none;
+    transition: all ease 1s;
+    z-index: 20;
+  }
+  .formContainer {
+    max-width: 547px;
+    padding: 30px;
+    background-color: #fff;
+  }
+  .formContainer label{
+    font-weight:600;
+  }
+  .formContainer input[type=text],
+  .formContainer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+    border-radius: 5px;
+  }
+  .formContainer input[type=text]:focus,
+  .formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .formContainer .btn {
+    padding: 15px 60px;
+    border: none;
+    background-color: #EE325C;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .formContainer .cancel {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background: none;
+    border: none;
+  }
+  .formContainer .btn:hover,
+  .openButton:hover {
+    background: #FF0043;
+  } 
+  .loginPopup{
+    text-align:left;
+  }
+
+  .loginPopup h2{
+    text-align:center;
+    margin-top: 40px;
+  }
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+[class*="col-"] {
+    position:relative;
+    float: left;
+    display:block;
+  }
